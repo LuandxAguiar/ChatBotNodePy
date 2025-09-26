@@ -1,0 +1,39 @@
+{
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "WABA_ID",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15551234567",
+              "phone_number_id": "PHONE_NUMBER_ID"
+            },
+            "contacts": [
+              {
+                "profile": {
+                  "name": "Munícipe de Teste"
+                },
+                "wa_id": "551188887777"
+              }
+            ],
+            "messages": [
+              {
+                "from": "551188887777",
+                "id": "wamid.HBgM...",
+                "timestamp": "1758814654",
+                "text": {
+                  "body": "Olá, preciso de limpeza na praça."
+                },
+                "type": "text"
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
